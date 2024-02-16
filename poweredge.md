@@ -1,9 +1,6 @@
-# Documentary evidence of my homelab
+# Dell Poweredge T620
 
-## Hardware
-
-### Primary Server
-
+[Bill of Materials]()
 Dell PowerEdge T620 ordered used for just under $3,000 in 2018.
 
 Of note:
@@ -41,22 +38,48 @@ Of note:
     * PCIe
         I bought 2 modern nvme flash drives and installed them using PCIe 4x cards. They work fine and are fast!
 
-### Network gear
+## Bill of materials additions
 
-Ubuquti stuff.
-
-* One older USG security gateway provides a firewall, VLAN and other services
-* One 8-port router
-* One Wifi AP
-
-Unifi software runs on my mac. It is apparently hard to install on Linux. I should try harder later. Once installed, each hardware item needed to be reset, and then it adopted them ok.
+2x NVME 2GB SDD + PCIe 4 adapter
 
 
+## Original Bill of materials
+
+ESXi Host: Refurbished Dell PowerEdge T620 8-Port (Configure To Order)
+
+	2x 1TB consumer flash drives
 
 
+	256GB Memory Upgrade Kit (16x16GB) 2RX4 PC3-12800R $720.00
+	1 x Dell PowerEdge T620 8-Port Chassis $900.00
+	1 x 2.5 GHz Hex-Core Intel Xeon Processor with 15MB Cache--E5-2640 $60.00
+	1 x 2.5 GHz Hex-Core Intel Xeon Processor with 15MB Cache--E5-2640 $60.00
+	1 x PERC H710P 1GB Lvl 0-60 PCIE RAID $350.00
+	1 x 3TB 7.2K RPM SAS 3.5" Dell Hard Drive $95.00
+	1 x 3TB 7.2K RPM SAS 3.5" Dell Hard Drive $95.00
+	1 x No HDD / Dell 3.5" Filler Only $0.00
+	1 x No HDD / Dell 3.5" Filler Only $0.00
+	1 x No HDD / Dell 3.5" Filler Only $0.00
+	1 x No HDD / Dell 3.5" Filler Only $0.00
+	1 x No HDD / Dell 3.5" Filler Only $0.00
+	1 x No HDD / Dell 3.5" Filler Only $0.00
+	1 x No RAID Installation $0.00
+	1 x Dell Dual Internal SD Card Reader w/ two 8GB SD Cards $120.00
+	1 x iDRAC7 Enterprise License (600+ Series) - Remote Console Access, Power Control, and ISO Mounting $350.00
+	1 x On-Board Dual Port 1GbE LOM $0.00
+	1 x No Additional NIC $0.00
+	1 x Dell Half-Height SATA DVD-ROM Optical Drive Included $0.00
+	1 x No Media $0.00
+	1 x (2) Dell 12G 750 Watt PSU $90.00
+	1 x No Bezel $0.00
+	1 x No VMware $0.00
 
-
-
+	Subtotal
+	$2,840.00
+	Shipping & Handling
+	$60.00
+	Grand Total
+	$2,900.00
 
 
 
