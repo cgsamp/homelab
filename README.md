@@ -2,7 +2,7 @@
 
 ## Hardware
 
-The Lab is based on a Dell PowerEdge T620, current in approximately 2013. It has an older processor ("Xeon Sandy Bridge E5-2640") that is no longer officially supported, but still largely works. It has 256mb DDR2 RAM and 10TB of drive space, some HDD and some SDD, mostly limited by the SATA interface speed. It also has a Ubiquity USG and 8-port router.
+The Lab is based on a Dell PowerEdge T620, current in approximately 2013. It has an older processor ("Xeon Sandy Bridge E5-2640") that is no longer officially supported, but still largely works. It has 256mb DDR2 RAM and 10TB of drive space, some HDD and some SDD, mostly limited by the SATA interface speed. It also has a Ubiquity USG and 8-port router. **Update** Tanzu Application Service runs fine, deploying Spring applications. I cannot install a Windows VM -- I suspect due to the processor but not completely certain.
 
 [Poweredge](poweredge.md)
 
