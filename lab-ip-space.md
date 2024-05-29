@@ -41,6 +41,12 @@ I call these "sub networks" as opposed to "subnets" because they are arbitrary d
 | 172.16.2.10 | apps.tas.lab.sampsoftware.net | TAS Apps Domain |
 | 172.16.2.10 | *.apps.tas.lab.sampsoftware.net | Wildcard TAS Apps Domain |
 
+|Service|Username|Password type|
+|-|-|-
+|bastion.sampsoftware.net|cgsamp|short|
+|esxi host|root|long|
+|vcenter|administrator@vsphere.local|long|
+|OpsMan|admin|short|
 
 
 
