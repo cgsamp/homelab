@@ -3,7 +3,7 @@ block-beta
     columns 1
     client["Inbound traffic"]
     space
-    haproxy["HA Proxy 
+    ooxy["HA Proxy 
         172.16.2.10
         *.system.tas.lab.sampsoftware.net
         *.apps.tas.lab.sampsoftware.net
