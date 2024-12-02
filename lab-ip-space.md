@@ -23,10 +23,11 @@ General lab equipment not part of another solution. Services used by several sol
 |172.16.0.1 - 1 | Gateway |
 |172.16.0.2 - .29 | Ad hoc lab services |
 |172.16.0.30 - 254 | Lab DHCP |
-|172.16.1.100 | esxi-t620.sampsoftware.net |ESXi Host |
-|172.16.1.101 | vcenter.sampsoftware.net| vCenter Client |
-|172.16.1.102 | pihole.sampsoftware.net | pihole DNS service |
-|172.16.1.102 | bastion.sampsoftware.net | Ubuntu desktop bastion |
+|172.16.1.100 | esxi-t620.lab.sampsoftware.net |ESXi Host |
+|172.16.1.101 | vcenter.lab.sampsoftware.net| vCenter Client |
+|172.16.1.102 | pihole.lab.sampsoftware.net | pihole DNS service |
+|172.16.1.102 | bastion.lab.sampsoftware.net | Ubuntu desktop bastion |
+|172.16.1.103 | nvidia-server.lab.sampsoftware.net | Ubuntu server with nvidia devices mounted |
 |172.16.2.2 | opsman.tas.lab.sampsoftware.net | TAS Operations Manager |
 |172.16.2.10 | ~~haproxy.tas.lab.sampsoftware.com~~ | Load Balancer for GoRouters
 |172.16.3.11 | HAProxy out of the loop now | One GoRouters
