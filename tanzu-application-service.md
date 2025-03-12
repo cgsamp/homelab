@@ -16,9 +16,10 @@
     1. Certificate
     ```
     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCxkPMvcUVR6W5gb9kMgtpkWGBlq9YoEG0atxsnJjHl2SbOvSOlH4sq+jtn53hH+DC0aDEnWMUyyEvABoiBK2hltoWtH6/EUResdzG8o1JcHJoJeXT1zNBKDF72fplgdLUdZfg38XARcKMO3myWulBr3gnF/1O0S+br2ZFZoH314LI9UPs/dfsnPsj2s6Ex2msmmMBX94AwzHKkDAKcc2JF0WVlwKZFTU7PKgcXnvXNQlGUTy3yTyXIjwUrdY1RAPaPUv5S8ptbhH/qcqxXIwX7C+Wsn9mCYEEFhHQTRAZltlnDXnPR1iwN5GSArVNDk+9PHPTZrIL5svOik304qbHPz0dJ893foakdVb7cPLBMO1/wD6yMlfLAD40O9pYdju/l0WJwbqpqPrNLHL6naFumskdH22I/iFMFc21uvAxFUrr76qp2js3HidoEq7HYWpqzNIUv3NVeoGz+QJrx9fX5u4ENv2GLrc3W9BwAq8CnVFHOKKezacuXXxS6Yy7gVL8= cgsamp@ubuntu-bastion
-    1. IMPORTANT: Be sure to check the Include Opsman CA Certs if you are going to let TAS generate the Gorouter and UAA rsa certs during the TAS install. Otherwise you will be plauged by "untrusted CA" errors and you will generate the TAS certs over and over until you remember this checkbox. Ask me how I know.
-    ```
+```
 
+    1. IMPORTANT: Be sure to check the Include Opsman CA Certs if you are going to let TAS generate the Gorouter and UAA rsa certs during the TAS install. Otherwise you will be plauged by "untrusted CA" errors and you will generate the TAS certs over and over until you remember this checkbox. Ask me how I know.
+   
 ## Install TAS
 
 Upload .pivotal file.
