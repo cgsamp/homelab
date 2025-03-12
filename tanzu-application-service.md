@@ -3,6 +3,14 @@
 ## Install Opsman
 
 1. Download and deploy OVF
+1. Save it locally and wait for the deployment process to upload it
+1. Upload it to a Content Library (Burger menu -> Content Libraries)
+1. Go to vCenter and create a Resource Pool under your Cluster
+1. Right-click -> New Virtual Machine -> Deploy from Template
+1. 
+
+
+
     1. Network settings:
         1. IP: 172.16.2.2
     1. Certificate
@@ -17,7 +25,7 @@ Upload .pivotal file.
 
 ### Configure Domains
 
-This is a bit circular because you need to have the DNS records created, but the IPs you need are for the routers, that are not yet created. Just plan for them and set them here. See ip space.
+I am using a USG Cloud Gateway that provides DNS and other network services
 
 If using pihole, it does not support wildcard DNS entries. So you need to create it.
 https://www.reddit.com/r/pihole/comments/gpxvy2/how_to_add_a_wildcard_dns_record_on_pihole/
